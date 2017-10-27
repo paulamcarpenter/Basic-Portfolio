@@ -1,10 +1,8 @@
-
 body {
   background-color: #efeee7;
-  width: 1024px;
-  content: 960px;
-  margin: 10px;
-  padding: 10px;
+  width: 960px;
+  margin: 20px;
+  padding: 20px;
   font-family: "Georgia","Times New Roman", Times, serif; 
   font-size: 18px;
   font-color: #777777;
@@ -31,6 +29,7 @@ h1 {
   text-align: left;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 20px;
   font-size: 28px;
 }
 
@@ -46,16 +45,6 @@ a {
   color: #efeee7;
 }
 
-#container1 {
-  width: 500px;
-  margin: 0 auto;
-}
-
-#container2 {
-  width: 100px
-  margin; 0 auto;
-}
-
 #menu {
   float: right;
   width: 35%;
@@ -67,7 +56,27 @@ a {
   padding-bottom: 20px;
   font-size: 14px;
 }
-  
+
+.container1 {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.container2 {
+  width: 270px;
+  padding-bottom: 60px;
+}
+
+.media-body {
+  color: black;
+  text-align: top;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: "Georgia","Times New Roman", Times, serif; 
+  font-color: #777777;
+}
+
 #main-bio,
 #contact-info,
 #bio-image {
@@ -91,7 +100,7 @@ a {
 footer {
   color: #efeee7;
   background-color: #4aaaa5;
-  margin: 0;
+  margin: 0 auto;
   text-align: left;
   padding-top: 20px;
   padding-bottom: 20px;
